@@ -1,0 +1,56 @@
+/* strip all elements */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 90%;
+    padding-left: 5%;
+}
+
+
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* main container */
+.container {
+    width: 95%;
+    padding-left: 2.5%;
+}
+
+/* divs with that will be selected */
+#idName {
+    width: 45%;
+    height: auto;
+    margin: 2.5%;
+    background-color: #6EDAB8;
+    float: left;
+    border-radius: 30px;
+}
+
+.className {
+    width: 45%;
+    height: auto;
+    margin: 2.5%;
+    background-color: #82D8F1;
+    float: left;
+    border-radius: 30px;
+}
+
+/* text inside divs */
+#idName p {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.className p, li {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
